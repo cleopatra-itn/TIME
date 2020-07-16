@@ -1,0 +1,57 @@
+<style>
+.rightNav2 li {
+  color: white;
+}
+
+.rightNav2 #homeLnk {
+
+}
+</style>
+
+  <!-- Sidenav  <img src='static/assets/img/brand/temporal.png' style="width:25px;height:25px;">-->
+  <nav class="navbar navbar-vertical fixed-left navbar-expand-md navbar-light bg-white" id="sidenav-main">
+    <div class="container-fluid">
+      <!-- Toggler -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sidenav-collapse-main" aria-controls="sidenav-main" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Brand -->
+      <a class="navbar-brand pt-0" href="/">
+        <img src="/static/assets/img/brand/timeLogo.jpg" class="navbar-brand-img" alt="TIME">
+      </a>
+
+      <!-- Collapse -->
+      <div class="collapse navbar-collapse" id="sidenav-collapse-main">
+        <!-- Collapse header -->
+        <div class="navbar-collapse-header d-md-none">
+          <div class="row">
+            <div class="col-6 collapse-brand">
+              <a href="./index.html">
+                <img src="/static/assets/img/brand/green.png">
+              </a>
+            </div>
+            <div class="col-6 collapse-close">
+              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#sidenav-collapse-main" aria-controls="sidenav-main" aria-expanded="true" aria-label="Toggle sidenav">
+                <span></span>
+                <span></span>
+              </button>
+            </div>
+          </div>
+        </div>
+        
+		<ul style="color: green; list-style-image: url('../static/assets/img/brand/bullet.png');height: 100px;width: 100px;">
+          <li class="nav-item"><a class="nav-link" href={{ url_for('home_blueprint.dashboard') }}><i class="text-blue"></i>Data Sets</a></li>
+          <li class="nav-item"><a class="nav-link" href={{ url_for('home_blueprint.word_trends')}}><i class="text-blue"></i>Word Trends</a></li>
+          <li class="nav-item"><a class="nav-link" href={{ url_for('home_blueprint.topic_mod')}}><i class="text-blue"></i>Topic Modeling</a></li>
+          <li class="nav-item"><a class="nav-link" href={{ url_for('home_blueprint.dashapp1') }}><i class="text-blue"></i>Cross-lingual Analysis</a></li>
+          <li class="nav-item"><a class="nav-link" href={{ url_for('home_blueprint.forceDirected') }}><i class="text-blue"></i>Propagation Analysis</a></li>
+          <!--<li class="nav-item"><a class="nav-link" href={{ url_for('home_blueprint.sent_anly')}}><i class="text-blue"></i> Sentiment Analysis</a></li>-->
+          <li class="nav-item"><a class="nav-link" href={{ url_for('home_blueprint.aboutus') }}><i class="text-blue"></i>About Us</a></li>
+
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
