@@ -13,11 +13,11 @@ TIME is a web application that show multiple visual analysis such as words trend
 
 ## UI Functionalities
 It has the following UI functionalities:
-Data Sets shows statistics about our all datasets;
-Word trends shows most frequently appeared words and other connected information;
-Apart from topic modeling, third tab show contextual links and then important tags.
-Cross-lingual analysis shows information propagation in form of news articles over time;
-Propagation Analysis tab shows how information is spreading and communities are being generated in cross-lingual settings;
+- Data Sets shows statistics about our all datasets;
+- Word trends shows most frequently appeared words and other connected information;
+- Apart from topic modeling, third tab show contextual links and then important tags.
+- Cross-lingual analysis shows information propagation in form of news articles over time;
+- Propagation Analysis tab shows how information is spreading and communities are being generated in cross-lingual settings;
 
 ## Contributors
 - Caio Mello (ESR10)
