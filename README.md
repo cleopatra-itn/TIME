@@ -18,6 +18,8 @@ git clone https://github.com/cleopatra-itn/TIME.git
 cd TIME
 pip install -r requirements.txt
 ```
+## Relevant Publications
+Forthcoming.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
