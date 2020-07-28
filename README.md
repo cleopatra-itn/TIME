@@ -5,6 +5,13 @@ Data sets that are used for visualization currently supports 5 languages (Eng, S
 ## Link to the demonstrator
 [http://cleopatra.ijs.si/dashboard/](http://cleopatra.ijs.si/dashboard/)
 
+## Supported Languages
+- English 
+- Slovene 
+- Spanish 
+- Portuguese 
+- German 
+
 ## Contributors
 - Caio Mello (ESR10)
 - Daniela Major (ESR9)
