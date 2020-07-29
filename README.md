@@ -33,7 +33,7 @@ cd TIME
 pip install -r requirements.txt
 ```
 ## Relevant Publications
-Forthcoming.
+A dataset for Information Spreading over the news. To appear in SiKDD 2020.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
